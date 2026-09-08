@@ -24,4 +24,5 @@ Para utilizar esta librería en tus proyectos, sigue estos pasos:
 De acuerdo con las normativas de la escuela sobre la construcción de fundamentos sólidos, se ha utilizado IA (Gemini) exclusivamente como herramienta de aprendizaje y *thought partner*. Las tareas específicas en las que se ha empleado son:
 * Comprensión teórica del funcionamiento interno de las macros `va_start`, `va_arg` y `va_end`.
 * Depuración y explicación de errores de compilación y enlazado (linker) producidos durante el desarrollo.
+* Uso para generar este README.md teniendo en cuenta las directrices del enunciado.
 En ningún caso se ha utilizado para generar código final sin comprensión previa.
