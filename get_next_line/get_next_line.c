@@ -6,13 +6,12 @@
 /*   By: alepriet <alepriet@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/08 00:27:52 by alepriet          #+#    #+#             */
-/*   Updated: 2026/09/08 20:58:16 by alepriet         ###   ########.fr       */
+/*   Updated: 2026/09/10 20:00:13 by alepriet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-// Read from the file descriptor and save the content in a static buffer
 static char	*ft_read_and_save(int fd, char *save)
 {
 	char	*buff;
@@ -38,7 +37,6 @@ static char	*ft_read_and_save(int fd, char *save)
 	return (save);
 }
 
-// Extract the line from the save buffer
 static char	*ft_get_line(char *save)
 {
 	int		i;
@@ -67,7 +65,6 @@ static char	*ft_get_line(char *save)
 	return (s);
 }
 
-// Save the remaining content after extracting the line
 static char	*ft_save(char *save)
 {
 	int		i;
@@ -94,7 +91,6 @@ static char	*ft_save(char *save)
 	return (s);
 }
 
-// Main function to get the next line from the file descriptor
 char	*get_next_line(int fd)
 {
 	char		*line;
